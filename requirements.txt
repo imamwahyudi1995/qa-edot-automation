@@ -1,0 +1,6 @@
+selenium
+appium-python-client
+pytest
+pytest-html
+python-dotenv
+faker
