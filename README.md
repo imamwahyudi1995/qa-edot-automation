@@ -73,7 +73,7 @@ This project is developed and maintained using [PyCharm](https://www.jetbrains.c
 
 ### 1. Clone the Repository
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/imamwahyudi1995/qa-edot-automation
 cd qa-edot-automation
 ```
 
@@ -121,7 +121,7 @@ REMOTE_HOST="127.0.0.1"
 REMOTE_PORT=4723
 
 # Variables for Web Testing (Example)
-BASE_URL="https://app-staging.edot.id/"
+BASE_URL="https://esuite.edot.id/"
 BROWSER="chrome"
 
 # Credentials & Test Data
