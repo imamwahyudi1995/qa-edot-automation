@@ -16,4 +16,8 @@ class BasePage:
     def get_text(self, locator):
         """Wait for element to be visible and return its text."""
         element = self.utils.wait_for_element_visible(locator)
-        return element.text 
+        return element.text
+
+    def wait_for_element_visible(self, locator):
+        """Wait until the element located by 'locator' is visible."""
+        return self.utils.wait_for_element_visible(locator)

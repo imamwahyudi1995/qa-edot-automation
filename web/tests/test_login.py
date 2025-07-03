@@ -42,4 +42,4 @@ def test_login_failed_invalid_password(driver):
     login_page.click_login()
     login_page.enter_password("password123")
     login_page.click_login()
-    assert login_page.is_error_message_visible(), "Error message should be visible for invalid login." 
+    assert login_page.is_error_message_visible(), "Error message should be visible for invalid login."
