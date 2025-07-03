@@ -7,7 +7,6 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-.generate.prompt.md
 .Python
 build/
 develop-eggs/
@@ -33,7 +32,6 @@ ENV/
 .pytest_cache/
 
 # Environment variables and secrets
-.env
 .env.*
 
 # Reports and test output
